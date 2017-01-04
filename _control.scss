@@ -1,10 +1,11 @@
 // ==========================================================================
-// CONTROL
+// Controls
 // ==========================================================================
+
 /*doc
 ---
 title: Control
-name: 1_control
+name: control
 category: forms
 ---
 
@@ -25,9 +26,9 @@ Controls set the position and margins of labels and inputs inside.
 /*doc
 ---
 title: Inline Control
-name: 2_control_inline
+name: control_inline
 category: forms
-parent: 1_control
+parent: control
 ---
 
 Inline controls are used for forms with single inputs
@@ -48,51 +49,5 @@ Inline controls are used for forms with single inputs
         position: absolute;
         top: 0;
         right: 0;
-    }
-}
-
-
-// 
-// Working control for chained selectors
-// ==========================================================================
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-
-
-.control.is--select {
-    padding-bottom: 0;
-    transition: padding-bottom 150ms;
-    position: relative;
-
-    &:after {
-        content: "";
-        background-image: url("/dist/images/favicons/favicon-32x32.png");
-        background-size: cover;
-        width: rem-calc(16);
-        height: rem-calc(16);
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin-left: rem-calc(-8);
-        transition: opacity 100ms;
-        opacity: 0;
-        animation: spin 500ms infinite linear;
-    }
-
-    &.is--working {
-        padding-bottom: rem-calc(25);
-        transition: padding-bottom 250ms;
-
-        &:after {
-            opacity: 1;
-            transition: opacity 1s;
-        }
     }
 }
