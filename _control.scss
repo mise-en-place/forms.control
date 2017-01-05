@@ -47,7 +47,7 @@ Inline controls are used for forms with single inputs
 
     *[type="submit"] {
         position: absolute;
-        top: 0;
+        top: rem-calc(20);
         right: 0;
     }
 }
