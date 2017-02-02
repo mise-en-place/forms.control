@@ -1,0 +1,22 @@
+{
+  "name": "mep-forms.control",
+  "version": "1.0.0",
+  "description": "Base styling for form control",
+  "main": "stylesheets/_control.scss",
+  "eyeglass": {
+    "needs": "^1.0.0",
+    "name": "control",
+    "exports": "eyeglass-exports.js"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "mise-en-place"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mise-en-place/forms.control.git"
+  },
+  "author": "Kind",
+  "license": "MIT"
+}
