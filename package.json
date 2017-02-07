@@ -20,6 +20,6 @@
   "author": "Kind",
   "license": "MIT",
   "dependencies": {
-    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
+    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc"
   }
 }
