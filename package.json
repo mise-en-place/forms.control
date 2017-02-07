@@ -18,5 +18,8 @@
     "url": "https://github.com/mise-en-place/forms.control.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
+  }
 }
