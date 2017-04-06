@@ -19,7 +19,7 @@ Controls set the position and margins of labels and inputs inside.
 ```
 */
 
-@import "tool-rem-calc";
+@import "~mep-tools.rem-calc";
 
 .control {
     margin-bottom: rem-calc(20);
